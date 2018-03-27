@@ -10,7 +10,7 @@
     <div class="container">
         <!--Logo-->
         <div id="logo">
-            <a href="index.html" class="logo" data-dark-logo="images/logo-dark.png">
+            <a href="{{ url('home') }}" class="logo" data-dark-logo="images/logo-dark.png">
                 <img src="{{asset('assets/images/logo.png')}}" alt="Polo Logo">
             </a>
         </div>
@@ -60,8 +60,8 @@
             <div class="container">
                 <nav>
                     <ul>
-                        <li><a href="/home">Home</a></li>
-                        <li class="dropdown"> <a href="#">Features</a>
+                        <li><a href="{{ url('home') }}">Home</a></li>
+                        <!-- <li class="dropdown"> <a href="#">Features</a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu"><a href="#"><i class="fa fa-heart"></i>Headers</a>
                                     <ul class="dropdown-menu">
@@ -177,8 +177,6 @@
                                         <li><a href="page-title-right.html">Right Aligned</a></li>
                                         <li><a href="page-title.html">Left Aligned</a></li>
 
-
-                                        <!--<li><a href="page-title-small.html">Small version</a> </li>-->
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu"><a href="#"><i class="fa fa-align-left"></i>Page Menu<span class="label label-danger">NEW</span></a>
@@ -456,7 +454,6 @@
                                         <li> <a href="page-gallery-wide.html">Wide version</a> </li>
                                         <li> <a href="page-gallery-load-more.html">Load more</a> </li>
                                         <li> <a href="page-gallery-infinite-scroll.html">Infinity Scroll</a> </li>
-                                        <!--<li> <a href="page-gallery-gallery-albums.html">Gallery Albums</a> </li>-->
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu"><span class="dropdown-menu-title-only">User pages</span>
@@ -715,7 +712,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
